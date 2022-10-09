@@ -20,3 +20,6 @@ func Anagrams(word string, words []string) []string {
 	}
 	return result
 }
+
+// TASK:
+// return all anagrams for the word given as first param

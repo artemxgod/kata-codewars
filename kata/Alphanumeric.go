@@ -14,3 +14,6 @@ func Alphanumeric(str string) bool {
 	}
 	return true
 }
+
+// TASK:
+// check if string is alphanumeric (contains only latin alphabet symbols and digits)
