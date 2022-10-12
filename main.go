@@ -22,7 +22,9 @@ func main() {
 	// solutionArray := []int{1, 3, 4, 5, 7, 8, 9}
 	// fmt.Println(kata.Solution(solutionArray))
 
-	lst := []int{-15,-21,-24,-30,-45, -5653*2, -769*2}
 	// lst := []int{-15,-21,-24,-30,-45, -5653*2, -769*2}
-	fmt.Println(kata.SumOfDivided(lst))
+	// lst := []int{-15,-21,-24,-30,-45, -5653*2, -769*2}
+	// fmt.Println(kata.SumOfDivided(lst))
+
+	fmt.Println(kata.Decompose(50))
 }
