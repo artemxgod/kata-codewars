@@ -19,3 +19,7 @@ func Comp(array1 []int, array2 []int) bool {
 	}
 	return true
 }
+
+// TASK
+// Compare 2 arrays. If second array contains all elements from first array in square, return true
+// order does not matter
