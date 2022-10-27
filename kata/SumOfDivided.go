@@ -16,7 +16,7 @@ func SumOfDivided(lst []int) string {
 	for _, elem := range lst {
 		if elem % 2 == 0 {
 			sum += elem
-			if flag == false {
+			if !flag {
 				flag = true
 			}
 		}
@@ -32,7 +32,7 @@ func SumOfDivided(lst []int) string {
 		for _, elem := range lst {
 			if elem % idx == 0 {
 				sum += elem
-				if flag == false {
+				if !flag {
 					flag = true
 					num = idx
 				}

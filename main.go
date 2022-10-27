@@ -26,5 +26,9 @@ func main() {
 	// lst := []int{-15,-21,-24,-30,-45, -5653*2, -769*2}
 	// fmt.Println(kata.SumOfDivided(lst))
 
-	fmt.Println(kata.Decompose(50))
+	// fmt.Println(kata.Decompose(50))
+
+	// fmt.Println(kata.Snail([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
+	fmt.Println(kata.Snail([][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}}))
+	
 }

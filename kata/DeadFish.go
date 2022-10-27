@@ -1,18 +1,18 @@
 package kata
 
-func Parse(data string) []int{
-	result := make([]int, 0);
+func Parse(data string) []int {
+	result := make([]int, 0)
 	cur := 0
 	for _, sym := range data {
 		switch sym {
-		case 'i': 
+		case 'i':
 			cur++
-		case 'd': 
+		case 'd':
 			cur--
-		case 's': 
+		case 's':
 			cur *= cur
-		case 'o': 
-			result = append(result, cur)	
+		case 'o':
+			result = append(result, cur)
 		}
 	}
 
