@@ -2,7 +2,7 @@ package main
 
 import (
 	"develop/playground/codewars/kata"
-	"fmt"
+	// "fmt"
 	// "math/big"
 )
 
@@ -32,13 +32,6 @@ func main() {
 	// fmt.Println(kata.Snail([][]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}))
 	// fmt.Println(kata.Snail([][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}}))
 
-	
-
-	x := int64(0)
-	fmt.Scan(&x)
-	fmt.Println(kata.Fib(x))
-	// c :=  *big.NewInt(0)
-
-	// c.SetBits([]big.Word{})
+	kata.Print(kata.Spiralize(5))
 
 }	
